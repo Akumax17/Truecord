@@ -1,0 +1,23 @@
+uuid: 9894955a-dee8-4547-a65b-25a63fda4a8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.artista
+  module:
+    - text
+id: node.artista.body
+field_name: body
+entity_type: node
+bundle: artista
+label: Bibliografía
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,21 @@
+uuid: 6f825087-9a40-49fe-b079-1f701a58d6c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comentarios_de_artista
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comentarios_de_artista.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comentarios_de_artista
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

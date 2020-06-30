@@ -1,0 +1,22 @@
+uuid: 1d2e29af-9cc8-484e-947b-156a590bb0ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cord
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: cord_content
+theme: cord
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 19b14c06-3ca3-42ce-bfc6-048e07be1fa6
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - leon
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: leon_messages
+theme: leon
+region: content
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

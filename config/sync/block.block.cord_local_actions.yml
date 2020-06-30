@@ -1,0 +1,20 @@
+uuid: caf3910f-a886-4f5e-8bb3-56231bea0caf
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cord
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: cord_local_actions
+theme: cord
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,28 @@
+uuid: 512dd717-51ea-4254-a4e3-b3a2c81b24e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.album.field_album_thumbnail
+    - field.field.node.album.field_artista
+    - field.field.node.album.field_canciones
+    - field.field.node.album.field_lanzamiento
+    - node.type.album
+  module:
+    - user
+id: node.album.teaser
+targetEntityType: node
+bundle: album
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_album_thumbnail: true
+  field_artista: true
+  field_canciones: true
+  field_lanzamiento: true

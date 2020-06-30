@@ -1,0 +1,24 @@
+uuid: 0f6debb8-4337-440d-bfe6-9b1eedcfb41a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lanzamiento
+    - node.type.album
+  module:
+    - datetime
+id: node.album.field_lanzamiento
+field_name: field_lanzamiento
+entity_type: node
+bundle: album
+label: Lanzamiento
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

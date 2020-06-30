@@ -1,0 +1,22 @@
+uuid: 9a8669b1-baeb-457b-950a-1bd074a63db5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - truecord
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: truecord_help
+theme: truecord
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

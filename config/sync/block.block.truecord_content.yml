@@ -1,0 +1,22 @@
+uuid: da4003e9-6885-4258-b189-a41cb0a0e3c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - truecord
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: truecord_content
+theme: truecord
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

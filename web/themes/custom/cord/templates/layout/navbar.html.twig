@@ -1,0 +1,15 @@
+<nav
+	class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="row">
+	{# {% if page.branding %} #}
+	{{ page.branding }}
+	{# {% endif %} #}
+
+	{# {% if page.branding %} #}
+	{{ page.logregion }}
+	{# {% endif %} #}
+</div>
+		{% if page.primaryMenu %}
+			{{ page.primaryMenu }}
+		{% endif %}
+</nav>

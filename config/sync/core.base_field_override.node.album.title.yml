@@ -1,0 +1,18 @@
+uuid: f488917b-58d3-4625-bd05-cc3d23a04605
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.album
+id: node.album.title
+field_name: title
+entity_type: node
+bundle: album
+label: Album
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

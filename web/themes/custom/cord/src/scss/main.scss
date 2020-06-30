@@ -1,0 +1,445 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #E5E5E5;
+}
+
+footer {
+	background: rgb(68,0,152);
+	background: linear-gradient(222deg, rgba(68,0,152,1) 0%, rgba(136,23,155,1) 100%);
+
+	.navmenu{
+	display: inline;
+	margin-top: 20px;
+	text-transform: uppercase;
+
+		li{
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		.menu-it{
+			color: white;
+
+		a{
+			color: white;
+			text-decoration: none;
+		}
+
+		}
+
+}
+}
+
+.taxomy-term {
+	padding: 0.5rem 1.25rem;
+
+	a {
+		color: rgba(0, 0, 0, 0.5);
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+}
+
+
+header{
+
+padding-top: 50px;
+background: rgb(255,189,68);
+background: linear-gradient(222deg, rgba(255,189,68,1) 0%, rgba(255,72,116,1) 100%);
+margin-bottom: 20px;
+
+.navmenu{
+	display: inline;
+	margin-top: 20px;
+	text-transform: uppercase;
+
+		li{
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		.menu-it{
+			color: white;
+
+		a{
+			color: white;
+			text-decoration: none;
+		}
+
+		}
+		
+		.is-active {
+		border-bottom: 5px solid #88179B; 
+		padding-bottom: 8px;
+				}
+		
+	}
+
+}
+
+
+.formtest{
+	background: transparent !important;
+	border: none;
+	border-bottom: 3px solid white; 
+}
+
+.nodefield--name-title{
+	color: #88179B;
+	text-align: center;
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;	
+}
+
+.artist-item {
+		background: white;
+		border-radius: 25px;
+		padding: 0px !important;
+
+		p{
+			padding-left: 10px;
+			padding-right: 10px;
+			word-break: break-word;
+			font-size: 1vw;
+		}
+
+		a{
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 1vw;
+		}
+
+
+	}
+
+.album-item {
+		background: white;
+		border-radius: 25px;
+		padding: 0px !important;
+
+		p{
+			padding-left: 10px;
+			padding-right: 10px;
+			word-break: break-word;
+			font-size: 1vw;
+		}
+
+		a{
+			padding-left: 10px;
+			font-size: 1vw;
+		}
+	}
+
+.genre-item{
+		background: white;
+		border-radius: 25px;
+		padding: 0px !important;
+
+		p{
+			padding-left: 10px;
+			padding-right: 10px;
+			word-break: break-word;
+			font-size: 1vw;
+		}
+
+		a{
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 1vw;
+		}
+}
+
+.image-style-home-thumbnail{
+	flex-shrink: 0; 
+	width: 100%;
+	border-radius: 25px 25px 0px 0px;
+}
+
+.album-cover-home{
+	border-radius: 25px;
+}
+
+.artist-body-home{
+	color: #AFAFAF;
+	font-size: 90%;
+}
+
+.image-style-home{
+
+	border-top-left-radius: calc(0.25rem - 1px) !important;
+  	border-top-right-radius: calc(0.25rem - 1px) !important;
+}
+
+.artist-title-home {
+	a {
+		color: #7B7B7B;
+	}
+	a:hover {
+		color: #7B7B7B;
+		text-decoration: none
+	}
+		color: #7B7B7B;
+		font-weight: 800;
+}
+
+.artist-genre-home {
+	display: inline-block;
+	a {
+		color: #7B7B7B;
+		text-decoration: underline;
+	}
+	a:hover {
+		color: #7B7B7B;
+		text-decoration: underline;
+	}
+		color: #7B7B7B;
+		text-decoration: underline;
+}
+
+.album-artist-home {
+	a {
+		color: #7B7B7B;
+		text-decoration: underline;
+	}
+	a:hover {
+		color: #7B7B7B;
+		text-decoration: underline;
+	}
+		color: #7B7B7B;
+		text-decoration: underline;
+}
+
+.genre-list{
+
+	font-weight: 800;
+
+	a {
+		color: #88179B;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #88179B;
+		text-decoration: underline;
+	}
+		color: #88179B;
+		text-decoration: none;
+
+}
+
+.pg-title{
+	margin-top: 25px;
+	color: #88179B;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+.artist-node{
+	p{	color: #7B7B7B;	}
+
+	& a {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+	& a:hover {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+	& a:link {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+
+}
+
+.node-image{
+	justify: center;
+}
+
+.album-node{
+	p{	color: #7B7B7B;	}
+
+	& a {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+	& a:hover {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+	& a:link {
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+	}
+
+
+}	
+
+.fondoblanco{
+	background: #fff !important;
+}
+
+.cancion-node-p{
+	text-align: center !important;
+}
+
+.cont-rel{
+	position: relative !important;
+}
+
+.genre-list-item{
+position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+
+	a{
+		color: white;
+		font-size: 25px;
+		word-break: break-all;
+		font-weight: 800;
+	}
+
+}
+
+.image-style-genre{
+	border-radius: 25px;
+}
+
+.field--name-field-member{
+	background-image: url("1999.png");
+	background-repeat: no-repeat;
+	
+	img{
+		margin-top: 350px;
+		border-radius: 25px;
+	}
+
+}
+
+.center-h{
+	margin-left: 12%;
+	margin-bottom: 50px;
+}
+
+.center-p{
+	text-align: center !important;
+}
+
+.center-g{
+	text-align: center !important;
+	a{
+		padding-left: 5px;
+	}	
+}
+
+.spctop{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.disco-item {
+			text-align: center;
+
+		p{
+			word-break: break-word;
+			font-size: 1vw;
+		}
+
+		a{
+			font-size: 1vw;
+		}
+
+		img{
+			border-radius: 25px;
+		}
+	}
+
+.songs-card{
+		display: inline-block;
+		background: white;
+		border-radius: 25px;
+		padding: 10px !important;
+
+		a{
+		color: #7B7B7B;
+		text-decoration: underline;
+		text-align: center;
+		}
+}
+
+.songs-style{		
+		margin-bottom: 3px;
+		text-align: center;
+	}
+
+.disco-album-item{
+	display: inline-block;
+	margin-bottom: 50px;
+	img {
+	border-radius: 25px;
+	}
+}
+
+.lbl-txt{
+	font-weight: 800;
+	color: #444444;
+	margin-right: 10px;
+}
+
+.f-n-a-item{
+
+		time{
+		color: #7B7B7B;
+		text-align: center;
+		}
+
+		a{
+		color: #7B7B7B;
+		text-decoration: underline;
+		}
+}
+
+.block-views-blockcontent-recent-block-1{
+	
+
+	
+
+	h2{
+	margin-top: 20px;
+	font-size: 15px;
+	color: #88179B;
+	text-transform: uppercase;
+	font-weight: 800;
+	display: inline;
+	}
+}
+
+.most-recent{
+		
+		display: inline;
+		a{
+		font-size: 15px;
+		color: #7B7B7B;
+		text-decoration: underline;
+		margin-left: 10px;
+		}
+}

@@ -1,0 +1,40 @@
+uuid: 6b9e0457-14a9-47be-b8ff-a8b053976f9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.artista.body
+    - field.field.node.artista.field_artist_cover
+    - field.field.node.artista.field_discografia
+    - field.field.node.artista.field_genero
+    - node.type.artista
+  module:
+    - text
+    - user
+id: node.artista.teaser
+targetEntityType: node
+bundle: artista
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_genero:
+    type: entity_reference_entity_view
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+hidden:
+  field_artist_cover: true
+  field_discografia: true
+  links: true

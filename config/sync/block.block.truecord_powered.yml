@@ -1,0 +1,22 @@
+uuid: d2f2a868-a6c5-43c8-8d2c-6f10f2dbab1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - truecord
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: truecord_powered
+theme: truecord
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

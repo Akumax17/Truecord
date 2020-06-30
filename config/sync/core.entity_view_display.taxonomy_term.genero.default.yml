@@ -1,0 +1,32 @@
+uuid: f7a269e8-970d-46fc-82b5-a8007c4010a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.genero.field_genre_image
+    - taxonomy.vocabulary.genero
+  module:
+    - image
+    - text
+id: taxonomy_term.genero.default
+targetEntityType: taxonomy_term
+bundle: genero
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_genre_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

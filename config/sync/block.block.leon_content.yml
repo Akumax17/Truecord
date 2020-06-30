@@ -1,0 +1,22 @@
+uuid: a9bd4e34-a57f-49cc-8a42-6a12120e0d0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - leon
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: leon_content
+theme: leon
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

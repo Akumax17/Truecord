@@ -1,0 +1,34 @@
+uuid: 401029f9-8a5f-4003-b20f-c78aa5d1d74e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.album.field_album_thumbnail
+    - field.field.node.album.field_artista
+    - field.field.node.album.field_canciones
+    - field.field.node.album.field_lanzamiento
+    - image.style.disco_item
+    - node.type.album
+  module:
+    - image
+    - user
+id: node.album.search_index
+targetEntityType: node
+bundle: album
+mode: search_index
+content:
+  field_album_thumbnail:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: disco_item
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_artista: true
+  field_canciones: true
+  field_lanzamiento: true
+  links: true

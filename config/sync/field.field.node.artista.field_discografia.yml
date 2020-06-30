@@ -1,0 +1,28 @@
+uuid: 5ae56f47-9882-4c77-8f66-3c2fbd42da07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_discografia
+    - node.type.album
+    - node.type.artista
+id: node.artista.field_discografia
+field_name: field_discografia
+entity_type: node
+bundle: artista
+label: Discografía
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      album: album
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

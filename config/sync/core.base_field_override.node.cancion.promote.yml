@@ -1,0 +1,22 @@
+uuid: 16452b95-c570-4e6e-9f62-ab30e02ad245
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cancion
+id: node.cancion.promote
+field_name: promote
+entity_type: node
+bundle: cancion
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,8 @@
+uuid: adf6e139-1646-46fb-bced-30122898cf97
+langcode: en
+status: true
+dependencies: {  }
+id: comentarios_de_artista
+label: 'Comentarios de artista'
+target_entity_type_id: comment
+description: ''

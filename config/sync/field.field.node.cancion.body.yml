@@ -1,0 +1,27 @@
+uuid: 58d66144-a2c2-4239-935a-c1fce093a60f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cancion
+  module:
+    - text
+id: node.cancion.body
+field_name: body
+entity_type: node
+bundle: cancion
+label: Letra
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: "<p>Agregar letra</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,14 @@
+uuid: 3942e8c7-b4a3-4bad-9987-0a0abdeb8c90
+langcode: en
+status: true
+dependencies: {  }
+name: disco_item
+label: Disco-item
+effects:
+  92620cd0-af94-4811-8aa3-2e7d6000adf4:
+    uuid: 92620cd0-af94-4811-8aa3-2e7d6000adf4
+    id: image_resize
+    weight: 1
+    data:
+      width: 300
+      height: 300

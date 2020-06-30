@@ -1,0 +1,72 @@
+uuid: e7407d75-08dc-4912-81ac-76ed48aebb7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.artista.body
+    - field.field.node.artista.field_artist_cover
+    - field.field.node.artista.field_discografia
+    - field.field.node.artista.field_genero
+    - image.style.thumbnail
+    - node.type.artista
+  module:
+    - image
+    - text
+id: node.artista.default
+targetEntityType: node
+bundle: artista
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_artist_cover:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_discografia:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_genero:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

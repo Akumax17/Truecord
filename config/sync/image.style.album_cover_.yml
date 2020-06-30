@@ -1,0 +1,14 @@
+uuid: c4f59fe8-bb9e-443a-abdf-224ddfabf144
+langcode: en
+status: true
+dependencies: {  }
+name: album_cover_
+label: Album-Cover-Full
+effects:
+  20c25dc2-00a3-4442-81fc-a1d3260d4869:
+    uuid: 20c25dc2-00a3-4442-81fc-a1d3260d4869
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 800

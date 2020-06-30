@@ -1,0 +1,19 @@
+uuid: da53fcb3-cfcd-4c76-a967-ff00f08527af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_discografia
+field_name: field_discografia
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: 0eb7aa6b-997a-49ef-8567-4e75746ecaf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_canciones
+    - node.type.album
+    - node.type.cancion
+id: node.album.field_canciones
+field_name: field_canciones
+entity_type: node
+bundle: album
+label: Canciones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cancion: cancion
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

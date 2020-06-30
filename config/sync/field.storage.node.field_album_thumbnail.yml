@@ -1,0 +1,30 @@
+uuid: 2d25d188-b8fe-487a-9bad-06fe8f3b5cd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_album_thumbnail
+field_name: field_album_thumbnail
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 8e6540a5-5e9a-455e-bcb6-e93512156164
+    alt: Album-thumbnail
+    title: AlbumT
+    width: 1000
+    height: 1000
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

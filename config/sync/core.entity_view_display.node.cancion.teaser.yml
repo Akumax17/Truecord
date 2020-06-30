@@ -1,0 +1,32 @@
+uuid: 31ff5548-5b18-4566-952c-0c7ee551121f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cancion.body
+    - field.field.node.cancion.field_video
+    - node.type.cancion
+  module:
+    - text
+    - user
+id: node.cancion.teaser
+targetEntityType: node
+bundle: cancion
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_video: true

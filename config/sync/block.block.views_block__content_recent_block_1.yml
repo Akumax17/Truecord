@@ -1,0 +1,30 @@
+uuid: e5f0358c-0704-47c0-8922-48b8dfbf2d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - system
+    - views
+  theme:
+    - cord
+id: views_block__content_recent_block_1
+theme: cord
+region: recent
+weight: 0
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: 'Most recent'
+  provider: views
+  label_display: visible
+  views_label: 'Most recent'
+  items_per_page: '3'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

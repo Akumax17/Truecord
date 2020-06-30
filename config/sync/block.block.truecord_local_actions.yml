@@ -1,0 +1,20 @@
+uuid: dc6f2f0e-4a61-426c-9f93-c99c0f1e9f26
+langcode: en
+status: true
+dependencies:
+  theme:
+    - truecord
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: truecord_local_actions
+theme: truecord
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

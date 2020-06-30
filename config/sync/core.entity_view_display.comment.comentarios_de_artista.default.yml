@@ -1,0 +1,23 @@
+uuid: 8de103de-11f3-4f8b-9528-c54974ec3338
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comentarios_de_artista
+    - field.field.comment.comentarios_de_artista.comment_body
+  module:
+    - text
+id: comment.comentarios_de_artista.default
+targetEntityType: comment
+bundle: comentarios_de_artista
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  links: true

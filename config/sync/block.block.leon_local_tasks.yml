@@ -1,0 +1,22 @@
+uuid: d4f7b52a-449b-4c42-8ac5-22062df78212
+langcode: en
+status: true
+dependencies:
+  theme:
+    - leon
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: leon_local_tasks
+theme: leon
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 0adf8d5c-954c-49fc-a99d-3bf19f03dc8f
+langcode: en
+status: true
+dependencies: {  }
+name: home_thumbnail
+label: 'Home thumbnail'
+effects:
+  9e75f77c-2966-4f70-920a-bee8b0130798:
+    uuid: 9e75f77c-2966-4f70-920a-bee8b0130798
+    id: image_resize
+    weight: 1
+    data:
+      width: 300
+      height: 300

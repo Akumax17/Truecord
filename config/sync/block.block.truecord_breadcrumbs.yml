@@ -1,0 +1,22 @@
+uuid: b0953742-8117-403f-b64c-a2c04d581dc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - truecord
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: truecord_breadcrumbs
+theme: truecord
+region: content
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

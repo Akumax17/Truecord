@@ -1,0 +1,32 @@
+uuid: 9f023990-e96e-4d96-bca1-16fc0a92c0e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - node
+    - views
+  theme:
+    - cord
+id: views_block__comments_recent_block_1
+theme: cord
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '2'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      artista: artista
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

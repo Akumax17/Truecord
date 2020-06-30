@@ -1,0 +1,22 @@
+uuid: 64335404-6587-4047-937c-538e6604aece
+langcode: en
+status: true
+dependencies: {  }
+name: genre
+label: genre-img
+effects:
+  d7439917-c4a1-437d-90a6-c4e9dcbbbaca:
+    uuid: d7439917-c4a1-437d-90a6-c4e9dcbbbaca
+    id: image_resize
+    weight: -9
+    data:
+      width: 330
+      height: 167
+  4d879b93-a6ee-4b2a-9d40-edbf060366dc:
+    uuid: 4d879b93-a6ee-4b2a-9d40-edbf060366dc
+    id: image_crop
+    weight: -10
+    data:
+      width: 400
+      height: 202
+      anchor: center-center

@@ -1,0 +1,22 @@
+uuid: 9b845be7-5e28-4a5a-9748-f22f4814e92b
+langcode: en
+status: true
+dependencies: {  }
+name: artist
+label: Artist-page
+effects:
+  2f5938ab-3578-403c-9cdb-c689787f37cc:
+    uuid: 2f5938ab-3578-403c-9cdb-c689787f37cc
+    id: image_crop
+    weight: -10
+    data:
+      width: 1080
+      height: 720
+      anchor: center-top
+  6ecb2525-c74b-4aca-bbf0-db701c8e0164:
+    uuid: 6ecb2525-c74b-4aca-bbf0-db701c8e0164
+    id: image_resize
+    weight: -9
+    data:
+      width: 1920
+      height: 1080

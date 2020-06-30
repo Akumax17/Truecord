@@ -1,0 +1,25 @@
+uuid: 32478a8c-43cf-4208-ace1-53972f803a6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cord
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: cord_branding
+theme: cord
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

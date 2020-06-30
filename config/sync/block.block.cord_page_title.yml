@@ -1,0 +1,20 @@
+uuid: 35edbd7b-f585-43b5-8747-2f7931a4c7d3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cord
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: cord_page_title
+theme: cord
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
